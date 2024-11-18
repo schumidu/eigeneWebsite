@@ -1,0 +1,8 @@
+services:
+  apache:
+    container_name: testwebserver
+    image: httpd:2.4
+    ports:
+      - '8089:80'
+    volumes:
+      - ./website:/usr/local/apache2/htdocs
