@@ -1,0 +1,30 @@
+#kontakt {
+    padding: 100px 25p;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+    height: 100%;
+    gap: 50px;
+}
+
+.humanReadable {
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+
+    margin: 50px;
+    /* padding: 50px; */
+
+    text-align: center;
+}
+
+#qrCode {
+    width: 300px;
+    height: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#qrCode img {
+    width: 100%;
+}
