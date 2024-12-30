@@ -28,6 +28,14 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    color: var(--text-color);
+  }
+  
+a:hover::after{
+width: 100%;
+}
+
 h1{
     font-size: 100px;
     line-height: 110%;

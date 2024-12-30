@@ -13,7 +13,6 @@ footer {
 }
 
 footer .flex_container {
-  margin-top: 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -25,13 +24,7 @@ footer a{
   position: relative;
   padding: 3px;
 }
-footer a:hover{
-  color: var(--text-color);
-}
 
-footer a:hover::after{
-  width: 100%;
-}
 
 .footer_item{
   width: 200px;

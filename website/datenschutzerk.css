@@ -1,0 +1,13 @@
+
+section {
+    color: var(--text-color);
+    padding: 60px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: var(--text-color);
+}
