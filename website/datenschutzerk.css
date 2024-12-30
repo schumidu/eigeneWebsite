@@ -4,10 +4,10 @@ section {
     padding: 60px;
 }
 
-li {
+section li {
     list-style-type: none;
 }
 
-a {
+section a {
     color: var(--text-color);
 }
