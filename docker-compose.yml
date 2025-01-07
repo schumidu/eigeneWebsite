@@ -1,6 +1,7 @@
 services:
+  name: webserver
   apache:
-    container_name: webserver_portfolio
+    container_name: portfolio
     image: httpd:2.4
     ports:
       - '127.0.0.1:8080:80'
