@@ -1,9 +1,16 @@
 services:
   apache:
-    container_name: testwebserver
+    container_name: webserver_portfolio
     image: httpd:2.4
     ports:
       - '127.0.0.1:8080:80'
     volumes:
       - ./website:/usr/local/apache2/htdocs
     restart: unless-stopped
+    networks:
+      - websitenetwork
+
+
+networks:
+  websitenetwork:
+    driver: bridge
